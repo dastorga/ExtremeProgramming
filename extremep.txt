@@ -1,1 +1,4 @@
+EXTREME PROGRAMMING
+
+INTRODUCCION Y UN POCO DE HISTORIA
 La programacion extrema o eXtreme Programming (XP) es una metodologia de desarrolllo de la ingenieria de software formulada por Kent Beck en 1999.
