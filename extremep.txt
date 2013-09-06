@@ -2,4 +2,101 @@ EXTREME PROGRAMMING
 
 INTRODUCCION Y UN POCO DE HISTORIA
 La programacion extrema o eXtreme Programming (XP) es una metodologia de desarrolllo de la ingenieria de software 
-formulada por Kent Beck en 1999.
+formulada por Kent Beck en 1999, autor de "Extreme Programming Explained: Embrace Change", libro en el que se 
+expuso una nueva metodologia denominada "Extreme Programming", su surgimiento se debio a las complicaciones que 
+producia el crecimiento y aumento de la complejidad de los programas en la epoca, y a su ves que hicieran falta 
+varios desarrolladores para un mismo proyecto y tiempos de desarrollos mas prolongados. Todo esto llevo a la 
+necesidad de mas organizacion y mas planificacion. El surgimiento de la programacion extrema produce un punto de 
+inflexion en un momento en donde se hace necesario una renovacion metodologica que busca satisfacer la necesidad de 
+realizar proyectos de una forma mas rapida, reducir documentacion, pasos, procesos, y tiempo, pero sin disminuir la 
+calidad del mismo. Entonces se acuño el termino "Metodos agiles" para definir a los metodos que estaban surgiendo 
+como alternativa a las metodologias formales a las que se le consideraba excesivamente "pesadas" y rigidas en su 
+caracter normativo y fuerte dependencia de planificaciones detalladas previas al desarrollo.
+
+¿Que es XP?
+XP es una metodologia para las pequeños y medianos equipos de desarrollo de software.
+XP es eficiente, ligero,de bajo riesgo,flexible y una predecible manera cientifica de desarrollar software.
+Extreme Programming (XP) fue concebido y desarrollado para hacer frente a las necesidades especificas de desarrollo 
+de software llevadas a cabo por equipos pequeños. Esta nueva metodologia ligera desafia muchos postulados convencionales
+
+Se distingue de otras metodologias por:
+  * Su respuesta temprana,concreto y continuo de ciclos cortos.
+  * Su enfoque de planificacion incremental, que rapidamente se le ocurre
+    un plan general que se espera que evolucione a traves de la vida de la
+    proyecto.
+  * Su capacidad de programar de forma flexible la aplicacion de
+    funcionalidad, respondiendo a las necesidades cambiantes del negocio.
+  * Su dependencia de un proceso de diseño evolutivo que dura
+    como el sistema dura.
+
+XP es una disciplina de desarrollo de software. Es una disciplina porque hay ciertas cosas que usted tiene que hacer para 
+estar haciendo XP. XP esta diseñado para trabajar con proyectos que pueden ser construidos por equipos de dos a diez programadores,
+que no estan fuertemente limitados por el existente entorno informatico, y donde un trabajo razonable de pruebas de ejecucion
+se puede hacer en una fraccion de un dia.
+
+Algunas personas se asustan o enojan cuando se encuentran por primera vez con XP. Sin embargo, ninguna de las ideas en XP son nuevas, la mayoria son tan viejas como la programacion.
+
+¿Que promete XP?
+XP promete reducir el riesgo del proyecto, mejorar la capacidad de respuesta a los cambios de negocio, mejorar la productividad en 
+toda la vida de un sistema y agregar diversion a la creacion de software en los equipos, todo al mismo tiempo.
+Para los programadores, XP promete que ellos seran capaces de trabajar en las cosas que realmente importan, todos los dias. 
+
+Algunas caracteristicas de eXtreme Programming.
+Esta metodologia hace incapie en el trabajo en equipo, y no solo entre los desarroladores, sino tambien, frecuentemente se debe
+integrar al cliente o su representante, de manera que se pueda dejar en claro las caracteristicas del software que son de mayor
+prioridad, y ademas para solucionar las dudas del equipo de programadores, dado que mientras mas comunicacion de los
+desarrolladores con el cliente haya, mejores resultados se obtendran, ya que sera mas claro que es lo que el cliente quiere, y que
+no.
+
+eXtreme Programming recomienda trabajar en equipo de a 2 o 3 programadores de modo tal que se desarrolla codigo de mayor calidad,
+el cual es revisado en el momento del desarrollo; es de alta importancia la escritura de codigo simple, supone que es mejor
+desarrollar algo sencillo y ahorrar tiempo de trabajo por si se requiere para solucionar problemas, que escribir codigo
+"complicado" y que tal vez sea de poca utilidad o simplemente nunca utilizado. Ademas, mientras mas simple se haya programado el
+sistema, la comunicacion resulta mas completa y se gana en tiempo y en costo(menos programadores se necesitaran).
+
+Fases del modelo eXtreme Programming.
+El ciclo de vida de eXtreme Programming consta de 6 partes:
+
+-Exploracion
+En esta parte, los clientes plantean las necesidades a los programadores, y los programadores se familiarizan con las herramientas
+y tecnologias a utilizar, luego se desarrola un prototipo. Esta parte por lo general, dependiendo del sistema a desarrollar puede
+llevar semanas o meses.
+
+-Planificacion de la Entrega 
+En esta fase el cliente establece la prioridad de cada historia de usuario, y correspondientemente, los programadores realizan una
+estimacion del esfuerzo necesario de cada una de ellas. Se toman acuerdos sobre el contenido de la primera entrega y se determina
+un cronograma en conjunto con el cliente. Una entrega deberia obtenerse en no mas de tres meses. Esta fase dura unos pocos dias.
+Por otra parte, el equipo de desarrollo mantiene un registro de la “velocidad” de desarrollo, establecida en puntos por iteracion,
+basandose principalmente en la suma de puntos correspondientes a las historias de usuario que fueron terminadas en la ultima
+iteracion.
+
+-Iteraciones
+Esta fase incluye varias iteraciones sobre el sistema antes de ser entregado. El Plan de Entrega esta compuesto por iteraciones de
+no mas de tres semanas. En la primera iteracion se puede intentar establecer una arquitectura del sistema que pueda ser utilizada
+durante el resto del proyecto. Esto se logra escogiendo las historias que fuercen la creacion de esta arquitectura, sin embargo,
+esto no siempre es posible ya que es el cliente quien decide que historias se implementaran en cada iteracion. Al final de la
+ultima iteracion el sistema estara listo para entrar en produccion. Todo el trabajo de la iteracion es expresado en tareas de
+programacion, cada una de ellas es asignada a un programador como responsable, pero llevadas a cabo por parejas de programadores.
+
+-Produccion
+
+La fase de produccion requiere de pruebas adicionales y revisiones de rendimiento antes de que el sistema sea trasladado al
+entorno del cliente. Al mismo tiempo, se deben tomar decisiones sobre la inclusion de nuevas caracteristicas a la version actual,
+debido a cambios durante esta fase. Es posible que se rebaje el tiempo que toma cada iteracion, de tres a una semana. Las ideas
+que han sido propuestas y las sugerencias son documentadas para su posterior implementacion (por ejemplo, durante la fase de
+mantenimiento).
+
+-Mantenimiento
+Mientras la primera version se encuentra en produccion, el proyecto eXtreme Programming debe mantener el sistema en funcionamiento
+al mismo tiempo que desarrolla nuevas iteraciones. De esta forma, la velocidad de desarrollo puede bajar despues de la puesta del
+sistema en produccion. La fase de mantenimiento puede requerir nuevo personal dentro del equipo y cambios en su estructura.
+
+-Fin del Proyecto
+
+Es cuando el cliente no tiene mas historias para ser incluidas en el sistema, en simples palabras, el clientes se encuentra
+satisfecho. Se genera la documentacion final del sistema y no se realizan mas cambios en la arquitectura. El final del proyecto o
+tambien llamado "muerte del proyecto", tambien ocurre cuando el sistema no genera los beneficios esperados por el cliente o cuando
+no hay presupuesto para mantenerlo.
+
+
+
