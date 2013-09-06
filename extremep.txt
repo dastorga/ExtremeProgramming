@@ -79,7 +79,6 @@ ultima iteracion el sistema estara listo para entrar en produccion. Todo el trab
 programacion, cada una de ellas es asignada a un programador como responsable, pero llevadas a cabo por parejas de programadores.
 
 -Produccion
-
 La fase de produccion requiere de pruebas adicionales y revisiones de rendimiento antes de que el sistema sea trasladado al
 entorno del cliente. Al mismo tiempo, se deben tomar decisiones sobre la inclusion de nuevas caracteristicas a la version actual,
 debido a cambios durante esta fase. Es posible que se rebaje el tiempo que toma cada iteracion, de tres a una semana. Las ideas
@@ -92,7 +91,6 @@ al mismo tiempo que desarrolla nuevas iteraciones. De esta forma, la velocidad d
 sistema en produccion. La fase de mantenimiento puede requerir nuevo personal dentro del equipo y cambios en su estructura.
 
 -Fin del Proyecto
-
 Es cuando el cliente no tiene mas historias para ser incluidas en el sistema, en simples palabras, el clientes se encuentra
 satisfecho. Se genera la documentacion final del sistema y no se realizan mas cambios en la arquitectura. El final del proyecto o
 tambien llamado "muerte del proyecto", tambien ocurre cuando el sistema no genera los beneficios esperados por el cliente o cuando
